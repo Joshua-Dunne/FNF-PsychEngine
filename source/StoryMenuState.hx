@@ -329,7 +329,7 @@ class StoryMenuState extends MusicBeatState
 	var tweenDifficulty:FlxTween;
 	function changeDifficulty(change:Int = 0):Void
 	{
-		curDifficulty += change;
+		curDifficulty += 0; // you know the drill
 
 		if (curDifficulty < 0)
 			curDifficulty = CoolUtil.difficulties.length-1;

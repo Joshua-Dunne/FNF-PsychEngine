@@ -86,11 +86,12 @@ class TitleState extends MusicBeatState
 	var wackyStrings:Array<Array<String>> = [
 		["you", "just", "got", "beaned", "friggin moron"],
 		["somebody", "toucha", "my", "spaghet", "omg"],
+		["this", "calypso", "fookin", "minging", "sukyadad"],
 		["kirby", "sixty four", "crystal", "shards", "goty"],
 		["sitaleine", "potatoleine", "keychaineleine", "pobetaleine", "adeleine"],
 		["haaaaaank!", "the sweet", "and sour", "sauce", "haaaaaaaaaank!!"],
 		["ayo", "the", "pizza", "here", "my ears burn..."],
-		["week", "seven", "coming", "never", "lmao"],
+		["week", "eight", "coming", "never", "lmao"],
 		["you stupid", "no i not", "whats", " nine plus ten", "twenty one"],
 	];
 
@@ -668,12 +669,12 @@ class TitleState extends MusicBeatState
 				// credTextShit.screenCenter();
 				case 6:
 					#if PSYCH_WATERMARKS
-					createCoolText(['Not associated', 'with'], -40);
+					createCoolText(['Sponsored by', 'Potatoleine'], -40);
 					#else
-					createCoolText(['In association', 'with'], -40);
+					createCoolText(['Sponsored by', 'Potatoleine'], -40);
 					#end
 				case 8:
-					addMoreText('newgrounds', -40);
+					addMoreText("Don't turn around", -40);
 					ngSpr.visible = true;
 				// credTextShit.text += '\nNewgrounds';
 				case 9:

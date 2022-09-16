@@ -61,7 +61,7 @@ class FreeplayState extends MusicBeatState
 
 		#if desktop
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("In the Menus", null);
+		DiscordClient.changePresence("Playing the Funnies", null);
 		#end
 
 		for (i in 0...WeekData.weeksList.length) {
@@ -406,7 +406,7 @@ class FreeplayState extends MusicBeatState
 
 	function changeDiff(change:Int = 0)
 	{
-		curDifficulty += change;
+		curDifficulty += 0; // lol no difficulty change for you
 
 		if (curDifficulty < 0)
 			curDifficulty = CoolUtil.difficulties.length-1;
