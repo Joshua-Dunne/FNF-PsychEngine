@@ -80,6 +80,20 @@ class TitleState extends MusicBeatState
 	var easterEggKeysBuffer:String = '';
 	#end
 
+	// too lazy to do text file loading
+	// so do this ugly implementation instead lol
+	var curWackier:Array<String> = [];
+	var wackyStrings:Array<Array<String>> = [
+		["you", "just", "got", "beaned", "friggin moron"],
+		["somebody", "toucha", "my", "spaghet", "omg"],
+		["kirby", "sixty four", "crystal", "shards", "goty"],
+		["sitaleine", "potatoleine", "keychaineleine", "pobetaleine", "adeleine"],
+		["haaaaaank!", "the sweet", "and sour", "sauce", "haaaaaaaaaank!!"],
+		["ayo", "the", "pizza", "here", "my ears burn..."],
+		["week", "seven", "coming", "never", "lmao"],
+		["you stupid", "no i not", "whats", " nine plus ten", "twenty one"],
+	];
+
 	var mustUpdate:Bool = false;
 
 	var titleJSON:TitleData;
@@ -123,6 +137,7 @@ class TitleState extends MusicBeatState
 		PlayerSettings.init();
 
 		curWacky = FlxG.random.getObject(getIntroTextShit());
+		curWackier = FlxG.random.getObject(wackyStrings);
 
 		// DEBUG BULLSHIT
 
@@ -640,20 +655,10 @@ class TitleState extends MusicBeatState
 					FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
 					FlxG.sound.music.fadeIn(4, 0, 0.7);
 				case 2:
-					#if PSYCH_WATERMARKS
-					createCoolText(['Psych Engine by'], 15);
-					#else
-					createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
-					#end
+					createCoolText([curWackier[0], curWackier[1], curWackier[2], curWackier[3], ]);
 				// credTextShit.visible = true;
 				case 4:
-					#if PSYCH_WATERMARKS
-					addMoreText('Shadow Mario', 15);
-					addMoreText('RiverOaken', 15);
-					addMoreText('shubs', 15);
-					#else
-					addMoreText('present');
-					#end
+					addMoreText(curWackier[4]);
 				// credTextShit.text += '\npresent...';
 				// credTextShit.addText();
 				case 5:
