@@ -3,6 +3,14 @@
 
 ### IF YOU WANNA READ IT GO TO THE [ORIGINAL REPOSITORY](https://github.com/ShadowMario/FNF-PsychEngine) THANKS
 
+![Sh!tmod Logo](assets/preload/images/ShitmodLogo.png)
+
+# SH!TMOD
+This repository will house my own personal changes to Psych Engine for the purpose of housing the funny edits I make for my own mod, SH!TMOD.
+
+SH!TMOD consists of low-effort garbage meme variants of the songs contained in Weeks 1 through 5 (with 6 planned at some point in the future probably).
+If you wish to contribute, don't
+
 ## Installation:
 You must have [the most up-to-date version of Haxe](https://haxe.org/download/), seriously, stop using 4.1.5, it misses some stuff.
 
@@ -35,8 +43,3 @@ otherwise, you can delete the "VIDEOS_ALLOWED" Line on Project.xml
 * Smokey - Sprite Atlas Support
 * Nebula the Zorua - LUA JIT Fork and some Lua reworks
 _____________________________________
-
-# SH!TMOD
-This repository will house my own personal changes to Psych Engine for the purpose of housing the funny edits I make for my own mod, SH!TMOD.
-SH!TMOD consists of low-effort garbage meme variants of the songs contained in Weeks 1 through 5 (with 6 planned at some point in the future probably).
-If you wish to contribute, don't
