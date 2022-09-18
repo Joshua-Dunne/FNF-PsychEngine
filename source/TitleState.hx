@@ -74,7 +74,7 @@ class TitleState extends MusicBeatState
 
 	#if TITLE_SCREEN_EASTER_EGG
 	var easterEggKeys:Array<String> = [
-		'SHADOW', 'RIVER', 'SHUBS', 'BBPANZU'
+		'SHADOW', 'RIVER', 'SHUBS', 'BBPANZU', 'ANARCHY'
 	];
 	var allowedKeys:String = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	var easterEggKeysBuffer:String = '';
@@ -560,9 +560,22 @@ class TitleState extends MusicBeatState
 
 							FlxTween.tween(black, {alpha: 1}, 1, {onComplete:
 								function(twn:FlxTween) {
-									FlxTransitionableState.skipNextTransIn = true;
-									FlxTransitionableState.skipNextTransOut = true;
-									MusicBeatState.switchState(new TitleState());
+
+									if (word == 'ANARCHY')
+									{
+										var poop:String = Highscore.formatSong('anarchy', 1);
+										PlayState.SONG = Song.loadFromJson(poop, 'anarchy');
+										PlayState.isStoryMode = false;
+										PlayState.storyDifficulty = 1;
+										LoadingState.loadAndSwitchState(new PlayState());
+									}
+									else
+									{
+										FlxTransitionableState.skipNextTransIn = true;
+										FlxTransitionableState.skipNextTransOut = true;
+										MusicBeatState.switchState(new TitleState());
+									}
+									
 								}
 							});
 							FlxG.sound.music.fadeOut();
