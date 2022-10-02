@@ -1,3 +1,1 @@
-Put your custom character icons here!
-Icons must start with "icon-" or it won't be read!
-The image resolution must have a minimal of 300x150
+A lot of (planned) content exists in these folders. If you wish to avoid spoilers for secrets, avoid the mods folder! Otherwise, continue at your own risk...

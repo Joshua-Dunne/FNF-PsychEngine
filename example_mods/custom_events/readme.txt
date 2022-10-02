@@ -1,3 +1,1 @@
-Add your custom event's .txt file and .lua file here
-
-The .txt file is the event's description on Chart Editor
+A lot of (planned) content exists in these folders. If you wish to avoid spoilers for secrets, avoid the mods folder! Otherwise, continue at your own risk...

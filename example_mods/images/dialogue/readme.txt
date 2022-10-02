@@ -1,4 +1,1 @@
-Drop your Dialogue characters shit here
-
-If you're asking "How do i make dialogues play?" or any other questions, read this:
-https://github.com/ShadowMario/FNF-PsychEngine/wiki/Dialogues
+A lot of (planned) content exists in these folders. If you wish to avoid spoilers for secrets, avoid the mods folder! Otherwise, continue at your own risk...

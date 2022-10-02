@@ -1,2 +1,1 @@
-Put your custom songs here
-It should be a folder with your custom song's name, and inside of it should include two files: "Inst.ogg" and "Voices.ogg"
+A lot of (planned) content exists in these folders. If you wish to avoid spoilers for secrets, avoid the mods folder! Otherwise, continue at your own risk...

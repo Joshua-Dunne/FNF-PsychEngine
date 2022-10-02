@@ -1,2 +1,1 @@
-Drop your shader's .frag and .vert files here!
-Both files are optional, if one of them are missing, it will use a default string instead of trying to load an unexistent file.
+A lot of (planned) content exists in these folders. If you wish to avoid spoilers for secrets, avoid the mods folder! Otherwise, continue at your own risk...

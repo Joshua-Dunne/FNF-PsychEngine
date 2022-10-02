@@ -1,4 +1,1 @@
-Place your custom fonts here!
-If your font is named "amogus.ttf", you can make lua texts use it with the following:
-
-setTextFont("yourObjectTag", "amogus.ttf");
+A lot of (planned) content exists in these folders. If you wish to avoid spoilers for secrets, avoid the mods folder! Otherwise, continue at your own risk...

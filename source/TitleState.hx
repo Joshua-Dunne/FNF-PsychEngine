@@ -74,7 +74,7 @@ class TitleState extends MusicBeatState
 
 	#if TITLE_SCREEN_EASTER_EGG
 	var easterEggKeys:Array<String> = [
-		'SHADOW', 'RIVER', 'SHUBS', 'BBPANZU', 'ANARCHY'
+		'SHADOW', 'RIVER', 'SHUBS', 'BBPANZU', 'ANARCHY', 'SLICES', 'CAPYBARA', 'NORTH'
 	];
 	var allowedKeys:String = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	var easterEggKeysBuffer:String = '';
@@ -569,13 +569,37 @@ class TitleState extends MusicBeatState
 										PlayState.storyDifficulty = 1;
 										LoadingState.loadAndSwitchState(new PlayState());
 									}
+									else if (word == 'SLICES')
+									{
+											var poop:String = Highscore.formatSong('slices', 1);
+											PlayState.SONG = Song.loadFromJson(poop, 'slices');
+											PlayState.isStoryMode = false;
+											PlayState.storyDifficulty = 1;
+											LoadingState.loadAndSwitchState(new PlayState());
+									}
+									else if (word == 'CAPYBARA')
+									{
+											//trace("COCONUT DOGGIE!!");
+											var poop:String = Highscore.formatSong('capybara', 1);
+											PlayState.SONG = Song.loadFromJson(poop, 'capybara');
+											PlayState.isStoryMode = false;
+											PlayState.storyDifficulty = 1;
+											LoadingState.loadAndSwitchState(new PlayState());
+									}
+									else if (word == 'NORTH')
+									{
+											var poop:String = Highscore.formatSong('north', 1);
+											PlayState.SONG = Song.loadFromJson(poop, 'north');
+											PlayState.isStoryMode = false;
+											PlayState.storyDifficulty = 1;
+											LoadingState.loadAndSwitchState(new PlayState());
+									}
 									else
 									{
 										FlxTransitionableState.skipNextTransIn = true;
 										FlxTransitionableState.skipNextTransOut = true;
 										MusicBeatState.switchState(new TitleState());
 									}
-									
 								}
 							});
 							FlxG.sound.music.fadeOut();

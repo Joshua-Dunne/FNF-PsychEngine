@@ -1,2 +1,1 @@
-Put your custom .mp4 videos here!
-They MUST be in 1280x720 resolution
+A lot of (planned) content exists in these folders. If you wish to avoid spoilers for secrets, avoid the mods folder! Otherwise, continue at your own risk...

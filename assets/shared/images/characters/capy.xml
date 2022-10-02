@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="capy.png"><SubTexture name="capy idle0000" x="0" y="0" width="388" height="388" frameX="0" frameY="0" frameWidth="388" frameHeight="388" />
+<SubTexture name="capy idle0001" x="388" y="0" width="388" height="388" frameX="0" frameY="0" frameWidth="388" frameHeight="388" />
+<SubTexture name="capy idle0002" x="776" y="0" width="388" height="388" frameX="0" frameY="0" frameWidth="388" frameHeight="388" />
+<SubTexture name="capy idle0003" x="1164" y="0" width="388" height="388" frameX="0" frameY="0" frameWidth="388" frameHeight="388" />
+<SubTexture name="capy left0000" x="0" y="388" width="388" height="388" frameX="0" frameY="0" frameWidth="388" frameHeight="388" />
+<SubTexture name="capy left0001" x="388" y="388" width="388" height="388" frameX="0" frameY="0" frameWidth="388" frameHeight="388" />
+<SubTexture name="capy left0002" x="776" y="388" width="388" height="388" frameX="0" frameY="0" frameWidth="388" frameHeight="388" />
+<SubTexture name="capy left0003" x="1164" y="388" width="388" height="388" frameX="0" frameY="0" frameWidth="388" frameHeight="388" />
+<SubTexture name="capy right0000" x="0" y="776" width="388" height="388" frameX="0" frameY="0" frameWidth="388" frameHeight="388" />
+<SubTexture name="capy right0001" x="388" y="776" width="388" height="388" frameX="0" frameY="0" frameWidth="388" frameHeight="388" />
+<SubTexture name="capy right0002" x="776" y="776" width="388" height="388" frameX="0" frameY="0" frameWidth="388" frameHeight="388" />
+<SubTexture name="capy right0003" x="1164" y="776" width="388" height="388" frameX="0" frameY="0" frameWidth="388" frameHeight="388" />
+<SubTexture name="capy up0000" x="0" y="1164" width="388" height="388" frameX="0" frameY="0" frameWidth="388" frameHeight="388" />
+<SubTexture name="capy up0001" x="388" y="1164" width="388" height="388" frameX="0" frameY="0" frameWidth="388" frameHeight="388" />
+<SubTexture name="capy up0002" x="776" y="1164" width="388" height="388" frameX="0" frameY="0" frameWidth="388" frameHeight="388" />
+<SubTexture name="capy up0003" x="1164" y="1164" width="388" height="388" frameX="0" frameY="0" frameWidth="388" frameHeight="388" />
+<SubTexture name="capy down0000" x="0" y="1552" width="388" height="388" frameX="0" frameY="0" frameWidth="388" frameHeight="388" />
+<SubTexture name="capy down0001" x="388" y="1552" width="388" height="388" frameX="0" frameY="0" frameWidth="388" frameHeight="388" />
+<SubTexture name="capy down0002" x="776" y="1552" width="388" height="388" frameX="0" frameY="0" frameWidth="388" frameHeight="388" />
+<SubTexture name="capy down0003" x="1164" y="1552" width="388" height="388" frameX="0" frameY="0" frameWidth="388" frameHeight="388" />
+</TextureAtlas>

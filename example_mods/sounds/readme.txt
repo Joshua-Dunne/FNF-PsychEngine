@@ -1,2 +1,1 @@
-Drop you custom sounds here!
-It should be in .ogg otherwise it won't work!!!
+A lot of (planned) content exists in these folders. If you wish to avoid spoilers for secrets, avoid the mods folder! Otherwise, continue at your own risk...
