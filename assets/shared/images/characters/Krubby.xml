@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Krubby.png">
+<SubTexture name="krubby_idle0000" x="0" y="0" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_idle0001" x="562" y="0" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_idle0002" x="1124" y="0" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_idle0003" x="1686" y="0" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_idle0004" x="2248" y="0" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_idle0005" x="0" y="582" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_idle0006" x="562" y="582" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_left0000" x="1124" y="582" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_left0001" x="1686" y="582" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_left0002" x="2248" y="582" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_left0003" x="0" y="1164" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_left0004" x="562" y="1164" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_left0005" x="1124" y="1164" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_left0006" x="1686" y="1164" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_up0000" x="2248" y="1164" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_up0001" x="0" y="1746" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_up0002" x="562" y="1746" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_up0003" x="1124" y="1746" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_up0004" x="1686" y="1746" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_up0005" x="2248" y="1746" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_up0006" x="0" y="2328" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_down0000" x="562" y="2328" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_down0001" x="1124" y="2328" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_down0002" x="1686" y="2328" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_down0003" x="2248" y="2328" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_down0004" x="0" y="2910" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_down0005" x="562" y="2910" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_down0006" x="1124" y="2910" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_right0000" x="1686" y="2910" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_right0001" x="2248" y="2910" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_right0002" x="0" y="3492" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_right0003" x="562" y="3492" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_right0004" x="1124" y="3492" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_right0005" x="1686" y="3492" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_right0006" x="2248" y="3492" width="562" height="582" frameX="0" frameY="0" frameWidth="562" frameHeight="582" />
+<SubTexture name="krubby_right0007" x="2248" y="3492" width="0" height="0" frameX="0" frameY="0" frameWidth="562" frameHeight="562" />
+</TextureAtlas>

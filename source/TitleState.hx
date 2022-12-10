@@ -74,7 +74,8 @@ class TitleState extends MusicBeatState
 
 	#if TITLE_SCREEN_EASTER_EGG
 	var easterEggKeys:Array<String> = [
-		'SHADOW', 'RIVER', 'SHUBS', 'BBPANZU', 'ANARCHY', 'SLICES', 'CAPYBARA', 'NORTH'
+		'SHADOW', 'RIVER', 'SHUBS', 'BBPANZU',
+		'ANARCHY', 'SLICES', 'CAPYBARA', 'NORTH', 'SCORE', 'COCONUTMALLD', 'KRUBBY'
 	];
 	var allowedKeys:String = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	var easterEggKeysBuffer:String = '';
@@ -93,6 +94,7 @@ class TitleState extends MusicBeatState
 		["ayo", "the", "pizza", "here", "my ears burn..."],
 		["week", "eight", "coming", "never", "lmao"],
 		["you stupid", "no i not", "whats", " nine plus ten", "twenty one"],
+		["a", "e", "i", "o", "fuck you"],
 	];
 
 	var mustUpdate:Bool = false;
@@ -590,6 +592,33 @@ class TitleState extends MusicBeatState
 									{
 											var poop:String = Highscore.formatSong('north', 1);
 											PlayState.SONG = Song.loadFromJson(poop, 'north');
+											PlayState.isStoryMode = false;
+											PlayState.storyDifficulty = 1;
+											LoadingState.loadAndSwitchState(new PlayState());
+									}
+									else if (word == 'SCORE')
+									{
+											//trace("banger alert");
+											var poop:String = Highscore.formatSong('score', 1);
+											PlayState.SONG = Song.loadFromJson(poop, 'score');
+											PlayState.isStoryMode = false;
+											PlayState.storyDifficulty = 1;
+											LoadingState.loadAndSwitchState(new PlayState());
+									}
+									else if (word == 'COCONUTMALLD')
+									{
+											//trace("you just got");
+											var poop:String = Highscore.formatSong('cocomall', 1);
+											PlayState.SONG = Song.loadFromJson(poop, 'cocomall');
+											PlayState.isStoryMode = false;
+											PlayState.storyDifficulty = 1;
+											LoadingState.loadAndSwitchState(new PlayState());
+									}
+									else if (word == 'KRUBBY')
+									{
+											//trace("what");
+											var poop:String = Highscore.formatSong('dreemlund', 1);
+											PlayState.SONG = Song.loadFromJson(poop, 'dreemlund');
 											PlayState.isStoryMode = false;
 											PlayState.storyDifficulty = 1;
 											LoadingState.loadAndSwitchState(new PlayState());

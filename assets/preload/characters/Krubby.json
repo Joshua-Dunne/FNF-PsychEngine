@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				7
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle-loop",
+			"indices": [],
+			"name": "krubby_idle"
+		},
+		{
+			"offsets": [
+				-9,
+				12
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singLEFT-loop",
+			"indices": [],
+			"name": "krubby_left"
+		},
+		{
+			"offsets": [
+				0,
+				3
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singRIGHT-loop",
+			"indices": [],
+			"name": "krubby_right"
+		},
+		{
+			"offsets": [
+				-7,
+				-2
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singUP-loop",
+			"indices": [],
+			"name": "krubby_up"
+		},
+		{
+			"offsets": [
+				0,
+				13
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "krubby_down"
+		},
+		{
+			"offsets": [
+				-9,
+				12
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "krubby_left"
+		},
+		{
+			"offsets": [
+				-6,
+				10
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "krubby_up"
+		},
+		{
+			"offsets": [
+				0,
+				6
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "krubby_right"
+		},
+		{
+			"offsets": [
+				0,
+				7
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "krubby_idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Krubby",
+	"position": [
+		-10,
+		160
+	],
+	"healthicon": "krubby",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		162,
+		166
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

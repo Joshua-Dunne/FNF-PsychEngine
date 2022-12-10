@@ -1,0 +1,76 @@
+{
+	"song": {
+		"events": [
+			[
+				8228.57142857143,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"whitty"
+					]
+				]
+			],
+			[
+				13714.2857142857,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"spooky"
+					]
+				]
+			],
+			[
+				21621.4285714286,
+				[
+					[
+						"Play Animation",
+						"hey",
+						"Dad"
+					]
+				]
+			],
+			[
+				35657.1428571429,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"pico"
+					]
+				]
+			],
+			[
+				57600,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"dad"
+					]
+				]
+			],
+			[
+				68571.4285714286,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"pico"
+					]
+				]
+			],
+			[
+				79542.8571428571,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"hexvirus"
+					]
+				]
+			]
+		]
+	}
+}
