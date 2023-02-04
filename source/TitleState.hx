@@ -75,7 +75,7 @@ class TitleState extends MusicBeatState
 	#if TITLE_SCREEN_EASTER_EGG
 	var easterEggKeys:Array<String> = [
 		'SHADOW', 'RIVER', 'SHUBS', 'BBPANZU',
-		'ANARCHY', 'SLICES', 'CAPYBARA', 'NORTH', 'SCORE', 'COCONUTMALLD', 'KRUBBY'
+		'ANARCHY', 'SLICES', 'CAPYBARA', 'NORTH', 'SCORE', 'GOAL', 'COCONUTMALLD', 'KRUBBY'
 	];
 	var allowedKeys:String = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	var easterEggKeysBuffer:String = '';
@@ -605,6 +605,15 @@ class TitleState extends MusicBeatState
 											PlayState.storyDifficulty = 1;
 											LoadingState.loadAndSwitchState(new PlayState());
 									}
+									else if (word == 'GOAL')
+										{
+												//trace("banger alert");
+												var poop:String = Highscore.formatSong('goal', 1);
+												PlayState.SONG = Song.loadFromJson(poop, 'goal');
+												PlayState.isStoryMode = false;
+												PlayState.storyDifficulty = 1;
+												LoadingState.loadAndSwitchState(new PlayState());
+										}
 									else if (word == 'COCONUTMALLD')
 									{
 											//trace("you just got");

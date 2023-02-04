@@ -1,2 +1,40 @@
-to enable the secrets, type "shubs", "river",
-"shadow" or "bb" on the title screen!
+to enable the secrets, type nothing lol i dont use these
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+although you could try "krubby" on the start screen...

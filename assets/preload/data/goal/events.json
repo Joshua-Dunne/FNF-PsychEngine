@@ -1,0 +1,276 @@
+{
+	"song": {
+		"events": [
+			[
+				8000,
+				[
+					[
+						"Image Flash",
+						"redflash",
+						"0.25"
+					]
+				]
+			],
+			[
+				8666.66666666667,
+				[
+					[
+						"Image Flash",
+						"redflash",
+						"0.25"
+					]
+				]
+			],
+			[
+				9333.33333333333,
+				[
+					[
+						"Image Flash",
+						"redflash",
+						"0.25"
+					]
+				]
+			],
+			[
+				10000,
+				[
+					[
+						"Image Flash",
+						"redflash",
+						"0.25"
+					]
+				]
+			],
+			[
+				64000,
+				[
+					[
+						"Image Flash",
+						"redflash",
+						"0.5"
+					]
+				]
+			],
+			[
+				69333.3333333334,
+				[
+					[
+						"Image Flash",
+						"redflash",
+						"0.5"
+					]
+				]
+			],
+			[
+				74666.6666666667,
+				[
+					[
+						"Image Flash",
+						"redflash",
+						"0.5"
+					]
+				]
+			],
+			[
+				77333.3333333333,
+				[
+					[
+						"Image Flash",
+						"redflash",
+						"0.5"
+					]
+				]
+			],
+			[
+				80000,
+				[
+					[
+						"Image Flash",
+						"redflash",
+						"0.5"
+					]
+				]
+			],
+			[
+				82666.6666666667,
+				[
+					[
+						"Image Flash",
+						"redflash",
+						"0.5"
+					]
+				]
+			],
+			[
+				85333.3333333333,
+				[
+					[
+						"Image Flash",
+						"redflash",
+						"0.5"
+					]
+				]
+			],
+			[
+				86666.6666666666,
+				[
+					[
+						"Image Flash",
+						"redflash",
+						"0.5"
+					]
+				]
+			],
+			[
+				88000,
+				[
+					[
+						"Image Flash",
+						"redflash",
+						"0.5"
+					]
+				]
+			],
+			[
+				89333.3333333333,
+				[
+					[
+						"Image Flash",
+						"redflash",
+						"0.5"
+					]
+				]
+			],
+			[
+				90666.6666666666,
+				[
+					[
+						"Image Flash",
+						"redflash",
+						"0.5"
+					]
+				]
+			],
+			[
+				92000,
+				[
+					[
+						"Image Flash",
+						"redflash",
+						"0.5"
+					]
+				]
+			],
+			[
+				93333.3333333333,
+				[
+					[
+						"Image Flash",
+						"redflash",
+						"0.5"
+					]
+				]
+			],
+			[
+				94666.6666666666,
+				[
+					[
+						"Image Flash",
+						"redflash",
+						"0.5"
+					]
+				]
+			],
+			[
+				95916.6666666666,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"spooky"
+					]
+				]
+			],
+			[
+				101250,
+				[
+					[
+						"Change Character",
+						"BF",
+						"bf"
+					]
+				]
+			],
+			[
+				102000,
+				[
+					[
+						"Change Character",
+						"gf",
+						"gf"
+					]
+				]
+			],
+			[
+				106583.333333333,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"darnell"
+					]
+				]
+			],
+			[
+				111833.333333333,
+				[
+					[
+						"Change Character",
+						"gf",
+						"nene"
+					]
+				]
+			],
+			[
+				111916.666666667,
+				[
+					[
+						"Change Character",
+						"BF",
+						"pico-p1"
+					]
+				]
+			],
+			[
+				121916.666666667,
+				[
+					[
+						"Change Character",
+						"bf",
+						"capybara"
+					]
+				]
+			],
+			[
+				122083.333333333,
+				[
+					[
+						"Change Character",
+						"dad",
+						"capybara"
+					]
+				]
+			],
+			[
+				122250,
+				[
+					[
+						"Change Character",
+						"gf",
+						"capybara"
+					]
+				]
+			]
+		]
+	}
+}
