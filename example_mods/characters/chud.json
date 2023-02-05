@@ -1,68 +1,68 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
-				0,
+				-6,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": false,
-			"name": "chud idle"
+			"fps": 24,
+			"name": "chud idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "chud left"
+			"fps": 24,
+			"name": "chud left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "chud down"
+			"fps": 24,
+			"name": "chud down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
-			"name": "chud up"
+			"fps": 24,
+			"name": "chud up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "chud right"
+			"fps": 24,
+			"name": "chud right",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/chud",
 	"position": [
 		0,
-		0
+		330
 	],
-	"healthicon": "face",
+	"healthicon": "darnell",
 	"flip_x": false,
 	"healthbar_colors": [
 		161,
@@ -70,8 +70,8 @@
 		161
 	],
 	"camera_position": [
-		0,
-		0
+		100,
+		100
 	],
 	"sing_duration": 6.1,
 	"scale": 1
