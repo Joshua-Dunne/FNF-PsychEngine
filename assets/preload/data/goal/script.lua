@@ -1,3 +1,4 @@
+local allowCountdown = false
 function onCreate()
 	-- background shit
 	makeLuaSprite('alleyway', 'alleyway', -600, -300);
@@ -10,5 +11,14 @@ function onCreate()
 
 	addLuaSprite('light', false);
 	
-	close(true); --For performance reasons, close this script once the stage is fully loaded, as this script won't be used anymore after loading the stage
+	
+end
+
+function onStartCountdown()
+	if not allowCountdown and not seenCutscene then --Block the first countdown
+		startVideo('chudirl');
+		allowCountdown = true;
+		return Function_Stop;
+	end
+	return Function_Continue;
 end
