@@ -65,9 +65,9 @@
 	"healthicon": "darnell",
 	"flip_x": false,
 	"healthbar_colors": [
-		161,
-		161,
-		161
+		95,
+		85,
+		142
 	],
 	"camera_position": [
 		100,
